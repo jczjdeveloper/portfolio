@@ -1,0 +1,75 @@
+.navbar {
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+#cover {
+  height: 100vh;
+  background: black;
+  background-position: cover;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.coverContent {
+  padding: 20vh 0 0 0;
+  z-index: 999;
+}
+
+#particles-js {
+  background: black;
+  height: 100vh;
+  z-index: 1;
+}
+
+#about {
+  height: 40vh;
+}
+
+#aboutHeader {
+  text-align: center;
+}
+
+#aboutDescription {
+  padding: 0 10vw 0 10vw;
+}
+
+#portfolioHeader {
+  text-align: center;
+}
+
+#portfolioDescription {
+  padding: 0 10vw 0 10vw;
+}
+
+
+
+.portfolioProjects {
+  display: block;
+}
+
+.thumbnail {
+  text-align: center;
+  /*min-width: 768px;*/
+  max-width: 40vw;
+}
+
+.contactRow {
+  margin: 10vh 0 0 0;
+  text-align: center;
+}
+
+.mailBtn, .githubBtn {
+  color: black;
+}
+
+footer {
+  margin-top: 5vh;
+  text-align: center;
+}
