@@ -1,5 +1,7 @@
-.navbar {
-
+#container-fluid {
+    min-width:800px;
+    width: auto !important;
+    width:800px;
 }
 
 body {
@@ -7,48 +9,58 @@ body {
   padding: 0;
 }
 
-
-#cover {
-  height: 100vh;
+.navbar {
   background: black;
-  background-position: cover;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .coverContent {
-  padding: 20vh 0 0 0;
-  z-index: 999;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 30vh 20vh 0 20vh;
+  z-index: 1;
+
 }
 
 #particles-js {
   background: black;
   height: 100vh;
-  z-index: 1;
 }
 
 #about {
   height: 40vh;
+  margin: 10vh;
+  padding: 5vh 1vh 5vh 1vh;
 }
 
 #aboutHeader {
   text-align: center;
+  font-weight: bold;
+  font-size: 80px;
 }
 
 #aboutDescription {
   padding: 0 10vw 0 10vw;
+  text-align: center;
+  font-size: 20px;
+}
+
+#portfolioWrapper {
+  padding: 5vh 1vh 5vh 1vh;
 }
 
 #portfolioHeader {
   text-align: center;
+  font-weight: bold;
+  font-size: 80px;
 }
 
 #portfolioDescription {
   padding: 0 10vw 0 10vw;
+  text-align: center;
+  font-size: 20px;
 }
-
-
 
 .portfolioProjects {
   display: block;
@@ -63,10 +75,23 @@ body {
 .contactRow {
   margin: 10vh 0 0 0;
   text-align: center;
+  color: white;
+  background: black
+}
+
+#contactHeader {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#contactContent {
+  text-align: center;
+  font-size: 20px;
 }
 
 .mailBtn, .githubBtn {
-  color: black;
+  color: white;
 }
 
 footer {
